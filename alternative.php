@@ -25,24 +25,24 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alternative'] = 'alternative';
-$string['alternativename'] = 'Activity name';
-$string['alternativeoptions'] = 'Options for this alternative';
+$string['alternative'] = 'mbadala';
+$string['alternativename'] = 'Jina la Shughuli';
+$string['alternativeoptions'] = 'Chaguo kwa mbadala huu';
 $string['alternativeoptions_help'] = 'Each alternative shows the user several options.
 These options are described in this form.
 If the title is not set, the option will not be created (but will be deleted if it existed).
 You can add new option with the button after these field sets.';
-$string['changeallowed'] = 'Change allowed';
+$string['changeallowed'] = 'Mabadiliko Yanaruhusiwa';
 $string['changeallowed_help'] = 'If not checked, the user will not be able to change his choice.
 Teachers, and all roles that have the capability `alternatives:forceregistration`, will be able to change the choice of anyone.';
-$string['chooseteammembers'] = 'Please choose your team members';
-$string['chooseuser'] = 'Please choose the user to register';
+$string['chooseteammembers'] = 'Tafadhali chagua mwanachama wa timu';
+$string['chooseuser'] = 'Tafadhali chagua mtumiaji wa kusajili';
 $string['csv'] = 'CSV Import';
 $string['csv2ndfield'] = 'The 2nd field (places) should be numeric, with 0 = no limit.';
 $string['csvbadfieldnb'] = 'Bad number of fields: {$a} instead of 4.';
 $string['csv_help'] = 'Each line is composed of Title ; Places ; Date ; Description';
 $string['csvunableopen'] = 'Unable to open CSV file.';
-$string['datecomment'] = 'Date';
+$string['datecomment'] = 'Tarehe';
 $string['datecomment_help'] = 'This field can contain any text, but it is meant for a date or a date interval.';
 $string['displaycompact'] = 'Compact display';
 $string['displaycompact_help'] = 'If not checked, each option will be displayed on several lines, with an explicit description.

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'allocationform', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'allocationform', language 'sw', branch 'MOODLE_32_STABLE'
  *
  * @package   allocationform
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,13 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['accessdenied'] = 'Allocation form Access denied';
-$string['add_option'] = 'Add new option';
-$string['allocationform'] = 'Allocation form';
-$string['allocationform:addinstance'] = 'Add a new allocation form';
-$string['allocationform:edit'] = 'Edit allocation forms';
-$string['allocationform_instructions'] = 'You must rank {$a->choices} options, you will be allocated to {$a->allocation} of the options. {$a->extratext}';
-$string['allocationformname'] = 'Allocation form name';
+$string['accessdenied'] = 'Ufikivu wa fomu ya ugawaji umezuiwa';
+$string['add_option'] = 'Ongeza Chaguo Jipya';
+$string['allocationform'] = 'Fomu ya ugawaji';
+$string['allocationform:addinstance'] = 'Ongeza fomu mpya ya ugawaji';
+$string['allocationform:edit'] = 'Hariri fomu za ugawaji';
+$string['allocationform_instructions'] = 'Lazima upangilie chaguo la {$a->choices}, ambalo utagawiwa {$a->allocation} kutokan na machaguo ya. {$a->extratext}';
+$string['allocationformname'] = 'Jina la fomu ya ugawaji';
 $string['allocationformname_help'] = 'The name of this allocation form, it will be used to link to the form.';
 $string['allocationform_notwant'] = 'You may select 1 option you do not wish to be allocated to.';
 $string['allocationform:reallocate'] = 'Force a reallocation';
