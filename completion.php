@@ -25,16 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['achievinggrade'] = 'Achieving grade';
-$string['activities'] = 'Activities';
-$string['activitiescompleted'] = 'Activity completion';
-$string['activitiescompletednote'] = 'Note: Activity completion must be set for an activity to appear in the above list.';
-$string['activitieslabel'] = 'Activities / resources';
-$string['activityaggregation'] = 'Condition requires';
-$string['activityaggregation_all'] = 'ALL selected activities to be completed';
-$string['activityaggregation_any'] = 'ANY selected activities to be completed';
-$string['activitycompletion'] = 'Activity completion';
-$string['activitycompletionupdated'] = 'Changes saved';
+$string['achievinggrade'] = 'Ufikiaji wa daraja';
+$string['activities'] = 'Shughuli';
+$string['activitiescompleted'] = 'Ukamilifu wa Shughuli';
+$string['activitiescompletednote'] = 'Kumbuka: Ukamilifu wa Shughuli unapaswa kuwekwa ili shughuli itokee kwenye orodha hapo juu.';
+$string['activitieslabel'] = 'Shughuli / rasilimali';
+$string['activityaggregation'] = 'Hali inahitaji';
+$string['activityaggregation_all'] = 'Shughuli ZOTE zilizochagulwa ili kukamilika';
+$string['activityaggregation_any'] = 'Shughuli yoyote iliyochaguliwa ili kukamilika';
+$string['activitycompletion'] = 'Ukamilifu wa Shughuli';
+$string['activitycompletionupdated'] = 'Mabadiliko yamehifadhiwa';
 $string['affectedactivities'] = 'The changes will affect the following <b>{$a}</b> activities or resources:';
 $string['aggregationmethod'] = 'Aggregation method';
 $string['all'] = 'All';

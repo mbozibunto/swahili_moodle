@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'choice', language 'sw', branch 'MOODLE_34_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,121 +25,120 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addmorechoices'] = 'Add more choices';
-$string['allowmultiple'] = 'Allow more than one choice to be selected';
-$string['allowupdate'] = 'Allow choice to be updated';
-$string['answered'] = 'Answered';
-$string['atleastoneoption'] = 'You need to provide at least one possible answer.';
-$string['calendarend'] = '{$a} closes';
-$string['calendarstart'] = '{$a} opens';
-$string['cannotsubmit'] = 'Sorry, there was a problem submitting your choice. Please try again.';
-$string['choice'] = 'Choice';
-$string['choiceactivityname'] = 'Choice: {$a}';
-$string['choice:addinstance'] = 'Add a new choice';
-$string['choice:choose'] = 'Record a choice';
-$string['choiceclose'] = 'Allow responses until';
-$string['choicecloseson'] = 'Choice closes on {$a}';
-$string['choice:deleteresponses'] = 'Modify and delete responses';
-$string['choice:downloadresponses'] = 'Download responses';
-$string['choicefull'] = 'This choice is full and there are no available places.';
-$string['choicename'] = 'Choice name';
-$string['choiceopen'] = 'Allow responses from';
-$string['choiceoptions'] = 'Choice options';
-$string['choiceoptions_help'] = 'Here is where you specify the options that participants have to choose from.
+$string['addmorechoices'] = 'Ongeza uchaguzi zaidi';
+$string['allowmultiple'] = 'Ruhusu zaidi ya chaguo moja kuchaguliwa';
+$string['allowupdate'] = 'Ruhusu  kusasiswa kwa chaguo';
+$string['answered'] = 'Imejibiwa';
+$string['atleastoneoption'] = 'Unahitajika kutoa angalau jibu moja linalowezekana.';
+$string['calendarend'] = 'Inafungwa {$a}';
+$string['calendarstart'] = 'Inafunguliwa {$a}';
+$string['cannotsubmit'] = 'Samahani, kulikuwa na tatizo la kuwasilisha uchaguzi wako. Tafadhali jaribu tena.';
+$string['choice'] = 'Chaguo';
+$string['choiceactivityname'] = 'Chaguo: {$a}';
+$string['choice:addinstance'] = 'Ongeza chaguo jipya';
+$string['choice:choose'] = 'Rekodi chaguo';
+$string['choiceclose'] = 'Ruhusu majibu mpaka';
+$string['choicecloseson'] = 'Chaguo linafungwa {$a}';
+$string['choice:deleteresponses'] = 'Badili na ufute majibu';
+$string['choice:downloadresponses'] = 'Pakua majibu';
+$string['choicefull'] = 'Chaguo hili limejaa na hakuna sehemu inayopatikana.';
+$string['choicename'] = 'Jina la Chaguo';
+$string['choiceopen'] = 'Ruhusu majibu kutoka';
+$string['choiceoptions'] = 'Orodha ya Chaguo';
+$string['choiceoptions_help'] = 'Hapa ndio unapobainisha chaguo ambazo washiriki wanapaswa kuchagua.
+Unaweza kujaza idadi yoyote ya haya. Ikiwa utaaacha wazi baadhi chaguzi, hazitaonyeshwa. Ikiwa unahitaji chaguo zaidi ya 8, Bofya kitufe  "Ongeza uga 3 kwenye fomu".';
+$string['choice:readresponses'] = 'Tazama majibu';
+$string['choicesaved'] = 'Chaguo lako limehifadhiwa';
+$string['choicetext'] = 'Nambari ya chaguo';
+$string['choice:view'] = 'Tazama shughuli ya chaguo';
+$string['chooseaction'] = 'Chagua kitendo ...';
+$string['chooseoption'] = 'Chagua: {$a}';
+$string['closebeforeopen'] = 'Umeweka tarehe ya kufunga kabla ya tarehe ya kufungua.';
+$string['completionsubmit'] = 'Onyesha kuwa kamili wakati mtumiaji anapofanya chaguo.';
+$string['description'] = 'Ufafanuzi';
+$string['displayhorizontal'] = 'Onyesha kwa mlalo';
+$string['displaymode'] = 'Hali onyeshi ya chaguo';
+$string['displayvertical'] = 'Onyesha kwa wima';
+$string['eventanswercreated'] = 'Jibu la chaguo limeongezwa';
+$string['eventanswerdeleted'] = 'Jibu la chaguo limefutwa';
+$string['eventanswersubmitted'] = 'Chaguo limefanywa';
+$string['eventanswerupdated'] = 'Chaguo limesasishwa';
+$string['eventreportdownloaded'] = 'Ripoti ya chaguo imepakuliwa';
+$string['eventreportviewed'] = 'Ripoti ya chaguo imetazamwa';
+$string['expired'] = 'Samahani, shughuli hii imefungwa muda wa {$a} na haipatikani tena';
+$string['full'] = '(Imejaa)';
+$string['havetologin'] = 'Unapaswa kuingia kabla ya kuwasilisha uchaguzi wako';
+$string['includeinactive'] = 'Jumuisha majibu kutoka kwa watumiaji wasiohai/waliosimamishwa';
+$string['indicator:cognitivedepth'] = 'Kitambuzi cha chaguo';
+$string['indicator:cognitivedepth_help'] = 'Kiashiria hiki kimetokana na kina cha utambuzi uliopatikana na mwanafunzi katika chaguo shughuli.';
+$string['indicator:socialbreadth'] = 'Chaguo jamii';
+$string['indicator:socialbreadth_help'] = 'Kiashiria hiki kimetokana upembuzi mpana wa kijamii uliofikiwa na mwanafunzi katika chaguo shughuli.';
+$string['limit'] = 'Ukomo';
+$string['limitanswers'] = 'Weka kikomo cha idadi ya majibu yanayoruhusiwa';
+$string['limitanswers_help'] = 'Chaguo hili inakuwezesha kupunguza idadi ya washiriki ambao wanaweza kuchagua kila chaguo. Ukomo unapofikiwa hakuna mtu mwingine anayeweza kuchagua chaguo hilo.
 
-You can fill in any number of these. If you leave some of the options blank, they will not be displayed. If you need more than 8 options, click the "Add 3 fields to form" button.';
-$string['choice:readresponses'] = 'View responses';
-$string['choicesaved'] = 'Your choice has been saved';
-$string['choicetext'] = 'Choice text';
-$string['choice:view'] = 'View choice activity';
-$string['chooseaction'] = 'Choose an action ...';
-$string['chooseoption'] = 'Choose: {$a}';
-$string['closebeforeopen'] = 'You have specified a close date before the open date.';
-$string['completionsubmit'] = 'Show as complete when user makes a choice';
-$string['description'] = 'Description';
-$string['displayhorizontal'] = 'Display horizontally';
-$string['displaymode'] = 'Display mode for the options';
-$string['displayvertical'] = 'Display vertically';
-$string['eventanswercreated'] = 'Choice answer added';
-$string['eventanswerdeleted'] = 'Choice answer deleted';
-$string['eventanswersubmitted'] = 'Choice made';
-$string['eventanswerupdated'] = 'Choice updated';
-$string['eventreportdownloaded'] = 'Choice report downloaded';
-$string['eventreportviewed'] = 'Choice report viewed';
-$string['expired'] = 'Sorry, this activity closed on {$a} and is no longer available';
-$string['full'] = '(Full)';
-$string['havetologin'] = 'You have to log in before you can submit your choice';
-$string['includeinactive'] = 'Include responses from inactive/suspended users';
-$string['indicator:cognitivedepth'] = 'Choice cognitive';
-$string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Choice activity.';
-$string['indicator:socialbreadth'] = 'Choice social';
-$string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Choice activity.';
-$string['limit'] = 'Limit';
-$string['limitanswers'] = 'Limit the number of responses allowed';
-$string['limitanswers_help'] = 'This option allows you to limit the number of participants that can select each choice option. When the limit is reached then no-one else can select that option.
+Ikiwa mipaka imezimwa basi idadi yoyote ya washiriki inaweza kuchagua kila chaguzi.';
+$string['limitno'] = 'Ukomo {no}';
+$string['modulename'] = 'Chaguo';
+$string['modulename_help'] = 'Moduli ya shughuli ya chaguo huwezesha mwalimu kuuliza swali moja na kutoa uteuzi wa majibu yanayoendana. 
 
-If limits are disabled then any number of participants can select each of the options.';
-$string['limitno'] = 'Limit {no}';
-$string['modulename'] = 'Choice';
-$string['modulename_help'] = 'The choice activity module enables a teacher to ask a single question and offer a selection of possible responses.
+Matokeo ya chaguzi yanaweza kuchapishwa baada ya wanafunzi kujibu, baada ya tarehe fulani, au la. Matokeo yanaweza kuchapishwa kwa majina ya wanafunzi au bila kujulikana.
 
-Choice results may be published after students have answered, after a certain date, or not at all. Results may be published with student names or anonymously.
-
-A choice activity may be used
+Chaguo shughuli linaweza kutumika
 
 * As a quick poll to stimulate thinking about a topic
 * To quickly test students\' understanding
 * To facilitate student decision-making, for example allowing students to vote on a direction for the course';
 $string['modulename_link'] = 'mod/choice/view';
-$string['modulenameplural'] = 'Choices';
-$string['moveselectedusersto'] = 'Move selected users to...';
-$string['multiplenotallowederror'] = 'Multiple answers are not allowed in this choice';
-$string['mustchooseone'] = 'You must choose an answer before saving.  Nothing was saved.';
-$string['noguestchoose'] = 'Sorry, guests are not allowed to make choices.';
-$string['noresultsviewable'] = 'The results are not currently viewable.';
-$string['notanswered'] = 'Not answered yet';
-$string['notenrolledchoose'] = 'Sorry, only enrolled users are allowed to make choices.';
-$string['notopenyet'] = 'Sorry, this activity is not available until {$a}';
-$string['numberofuser'] = 'Number of responses';
-$string['numberofuserinpercentage'] = 'Percentage of responses';
-$string['openafterclose'] = 'You have specified an open date after the close date';
-$string['option'] = 'Option';
-$string['optionno'] = 'Option {no}';
-$string['options'] = 'Options';
-$string['page-mod-choice-x'] = 'Any choice module page';
-$string['pluginadministration'] = 'Choice administration';
-$string['pluginname'] = 'Choice';
-$string['previewonly'] = 'This is just a preview of the available options for this activity. You will not be able to submit your choice until {$a}.';
-$string['privacy'] = 'Privacy of results';
-$string['privacy:metadata:choice_answers'] = 'Information about the user\'s chosen answer(s) for a given choice activity';
-$string['privacy:metadata:choice_answers:choiceid'] = 'The ID of the choice activity the user is providing answer for';
-$string['privacy:metadata:choice_answers:optionid'] = 'The ID of the option that the user selected.';
-$string['privacy:metadata:choice_answers:timemodified'] = 'The timestamp indicating when the choice was modified by the user';
-$string['privacy:metadata:choice_answers:userid'] = 'The ID of the user answering this choice activity';
-$string['publish'] = 'Publish results';
-$string['publishafteranswer'] = 'Show results to students after they answer';
-$string['publishafterclose'] = 'Show results to students only after the choice is closed';
-$string['publishalways'] = 'Always show results to students';
-$string['publishanonymous'] = 'Publish anonymous results, do not show student names';
-$string['publishnames'] = 'Publish full results, showing names and their choices';
-$string['publishnot'] = 'Do not publish results to students';
-$string['removemychoice'] = 'Remove my choice';
-$string['removeresponses'] = 'Remove all responses';
-$string['responses'] = 'Responses';
-$string['responsesresultgraphheader'] = 'Graph display';
-$string['responsesto'] = 'Responses to {$a}';
-$string['results'] = 'Results';
-$string['savemychoice'] = 'Save my choice';
-$string['search:activity'] = 'Choice - activity information';
-$string['showpreview'] = 'Show preview';
-$string['showpreview_help'] = 'Allow students to preview the available options before the choice is opened for submission.';
-$string['showunanswered'] = 'Show column for unanswered';
-$string['skipresultgraph'] = 'Skip result graph';
-$string['spaceleft'] = 'space available';
-$string['spacesleft'] = 'spaces available';
-$string['taken'] = 'Taken';
-$string['userchoosethisoption'] = 'Users who chose this option';
-$string['viewallresponses'] = 'View {$a} responses';
-$string['viewchoices'] = 'View choices';
-$string['withselected'] = 'With selected';
-$string['yourselection'] = 'Your selection';
+$string['modulenameplural'] = 'Chaguzi';
+$string['moveselectedusersto'] = 'Hamisha watumiwaji walichaguliwa kwenda...';
+$string['multiplenotallowederror'] = 'Majibu mengi hayaruhusiwi katika chaguo hili';
+$string['mustchooseone'] = 'Lazima uchague jawabu kabla ya kuhifadhi. Hakuna kilichohifadhiwa.';
+$string['noguestchoose'] = 'Samahani, wageni hawaruhusiwi kufanya chaguzi.';
+$string['noresultsviewable'] = 'KWa sasa metokeo hayawezi kutazamwa.';
+$string['notanswered'] = 'Halijajibiwa bado';
+$string['notenrolledchoose'] = 'Samahani, wanaorushiwa kufanya chaguzi ni watumiaji waliosajiliwa tu.';
+$string['notopenyet'] = 'Samahani, shughuli hii haipatikani kwa sasa mpaka {$a}';
+$string['numberofuser'] = 'Idadi ya majibu';
+$string['numberofuserinpercentage'] = 'Asilimia ya majibu';
+$string['openafterclose'] = 'Umeingiza tarehe ya kufungua baada ya tarehe ya kufunga(mwihso)';
+$string['option'] = 'Chaguo';
+$string['optionno'] = 'Chaguo {no}';
+$string['options'] = 'Chaguzi';
+$string['page-mod-choice-x'] = 'Ukurasa wowote wa moduli chaguo';
+$string['pluginadministration'] = 'Usimamizi wa chaguo';
+$string['pluginname'] = 'Chaguo';
+$string['previewonly'] = 'Hii ni rejea tu ya chaguo zilizopo za shughuli hii. Hutaweza kuwasilisha chaguo lako mpaka {$a}.';
+$string['privacy'] = 'Faragha ya matokeo';
+$string['privacy:metadata:choice_answers'] = 'Taarifa kuhusu majibu yaliyochaguliwa na mtumiaji kutokana na chaguo la shughuli teule.';
+$string['privacy:metadata:choice_answers:choiceid'] = 'Utambulisho wa chaguo shughuli mtumiaji hutolea jibu';
+$string['privacy:metadata:choice_answers:optionid'] = 'Utambulisho wa chaguo lililochaguliwa na mtumiaji.';
+$string['privacy:metadata:choice_answers:timemodified'] = 'Muhtasari wa muda unaoonyesha muda chaguo lilipobadilishwa na mtumiaji';
+$string['privacy:metadata:choice_answers:userid'] = 'Utambulisho wa mtumiaji anaejibu chuguo shughuli hili.';
+$string['publish'] = 'Chapisha matokeo';
+$string['publishafteranswer'] = 'Onyesha matokeo kwa wanafunzi mara baada ya wao kujibu';
+$string['publishafterclose'] = 'Onyesha matokeo kwa wanafunzi pale tu chaguo linapofungwa';
+$string['publishalways'] = 'Daima onyesha matokeo kwa wanafunzi';
+$string['publishanonymous'] = 'Chapisha matokeo yasiyojulikana, usionyeshe majina ya wanafunzi';
+$string['publishnames'] = 'Chapisha matokeo kamili, onyesha majina na chaguzi zao';
+$string['publishnot'] = 'Usichapishe matokeo kwa wanafunzi';
+$string['removemychoice'] = 'Ondoa chaguo langu';
+$string['removeresponses'] = 'Ondoa majibu yote';
+$string['responses'] = 'Majibu';
+$string['responsesresultgraphheader'] = 'Onyesha kwa grafu';
+$string['responsesto'] = 'Majibu kwenda {$a}';
+$string['results'] = 'Matokeo';
+$string['savemychoice'] = 'Hifadhi chaguo langu';
+$string['search:activity'] = 'Chaguo - taarifa ya shughuli';
+$string['showpreview'] = 'Onyesha Rejea';
+$string['showpreview_help'] = 'Ruhusu wanafunzi kurejea chaguo zilizopo kabla ya chaguzi kufunguliwa kwa kuwasilisha.';
+$string['showunanswered'] = 'Onyesha safuwima kwa yasiyojibiwa';
+$string['skipresultgraph'] = 'Ruka matokeo ya grafu';
+$string['spaceleft'] = 'nafasi inapatikana';
+$string['spacesleft'] = 'nafasi inapatikana';
+$string['taken'] = 'Imechukuliwa';
+$string['userchoosethisoption'] = 'Watumiaji waliochaguo chaguo hili';
+$string['viewallresponses'] = 'Tazama majibu {$a}';
+$string['viewchoices'] = 'Chaguzi za kutazama';
+$string['withselected'] = 'Na wa kuchaguliwa';
+$string['yourselection'] = 'Chaguo lako';

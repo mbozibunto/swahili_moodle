@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['privacy:completionpath'] = 'Course completion';
-$string['privacy:metadata:completionsummary'] = 'The course contains completion information about the user.';
-$string['privacy:perpage'] = 'The number of courses to show per page.';
+$string['privacy:completionpath'] = 'Kumalizika kwa kozi';
+$string['privacy:metadata:completionsummary'] = 'Kozi ina maelezo ya mtumiaji kuhusu kukamilika kwake.';
+$string['privacy:perpage'] = 'Idadi ya kozi za kuonyesha kila ukurasa.';

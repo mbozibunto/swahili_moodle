@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignsubmission_file', language 'sw', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,29 +25,29 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['acceptedfiletypes'] = 'Accepted file types';
-$string['acceptedfiletypes_help'] = 'Accepted file types can be restricted by entering a list of file extensions. If the field is left empty, then all file types are allowed.';
-$string['configmaxbytes'] = 'Maximum file size';
-$string['countfiles'] = '{$a} files';
-$string['default'] = 'Enabled by default';
-$string['defaultacceptedfiletypes'] = 'Default accepted file types';
-$string['default_help'] = 'If set, this submission method will be enabled by default for all new assignments.';
-$string['enabled'] = 'File submissions';
-$string['enabled_help'] = 'If enabled, students are able to upload one or more files as their submission.';
-$string['eventassessableuploaded'] = 'A file has been uploaded.';
-$string['file'] = 'File submissions';
-$string['filesofthesetypes'] = 'Files of these types may be added to the submission:';
+$string['acceptedfiletypes'] = 'Aina za faili zinazokubalika';
+$string['acceptedfiletypes_help'] = 'Aina za faili zilizokubaliwa zinaweza kuzuiwa kwa kuingiza orodha ya viendelezi vya faili. Ikiwa uga imeachwa tupu, basi aina zote za faili zinaruhusiwa.';
+$string['configmaxbytes'] = 'Ukomo wa juu wa ukubwa wa faili';
+$string['countfiles'] = 'faili {$a}';
+$string['default'] = 'Imewezeshwa Kimsingi';
+$string['defaultacceptedfiletypes'] = 'Aina za faili msingi zinazokubaliwa';
+$string['default_help'] = 'Ikiwekwa, njia hii ya kuwasilisha itawezeshwa kimsingi kwa ajili ya mazoezi yote mapya.';
+$string['enabled'] = 'Uwasilishaji wa faili';
+$string['enabled_help'] = 'Kama imewezeshwa, wanafunzi wanaweza kupakia faili moja au zaidi kama mawasilisho yao.';
+$string['eventassessableuploaded'] = 'Faili limepakiwa.';
+$string['file'] = 'Uwasilishaji wa mafaili';
+$string['filesofthesetypes'] = 'Mafaili ya aina hizi yanaweza ongezwa kwenye uwasilishaji:';
 $string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
-$string['maxbytes'] = 'Maximum file size';
-$string['maxfiles'] = 'Maximum files per submission';
-$string['maxfiles_help'] = 'If file submissions are enabled, each assignment can be set to accept up to this number of files for their submission.';
-$string['maxfilessubmission'] = 'Maximum number of uploaded files';
-$string['maxfilessubmission_help'] = 'If file submissions are enabled, each student will be able to upload up to this number of files for their submission.';
-$string['maximumsubmissionsize'] = 'Maximum submission size';
-$string['maximumsubmissionsize_help'] = 'Files uploaded by students may be up to this size.';
-$string['nonexistentfiletypes'] = 'The following file types were not recognised: {$a}';
-$string['numfilesforlog'] = 'The number of file(s) : {$a} file(s).';
-$string['pluginname'] = 'File submissions';
-$string['privacy:metadata:filepurpose'] = 'The files loaded for this assignment submission';
-$string['siteuploadlimit'] = 'Site upload limit';
-$string['submissionfilearea'] = 'Uploaded submission files';
+$string['maxbytes'] = 'Ukomo wa juu wa ukubwa wa faili';
+$string['maxfiles'] = 'Ukomo wa juu wa mafaili kwa kila wasilisho';
+$string['maxfiles_help'] = 'Ikiwa uwasilishaji wa mafaili umewezeshwa, kila kazi inaweza kuweka ili kukubali hadi idadi hii ya faili kwa uwasilishaji wao.';
+$string['maxfilessubmission'] = 'Idadi ya juu ya faili zilizopakiwa';
+$string['maxfilessubmission_help'] = 'Ikiwa uwasilishaji wa mafaili umewezeshwa, kila mwanafunzi ataweza kupakia hadi idadi hii ya faili kwa kuwasilisha.';
+$string['maximumsubmissionsize'] = 'Ukomo wa juu wa ukubwa wa uwasilishaji';
+$string['maximumsubmissionsize_help'] = 'Faili zilizopakiwa na wanafunzi zinaweza kufikia ukubwa huu.';
+$string['nonexistentfiletypes'] = 'Aina zifuatazo za faili hazikutambuliwa: {$a}';
+$string['numfilesforlog'] = 'Idadi ya ma/faili ni: {$a}.';
+$string['pluginname'] = 'Uwasilishaji wa mafaili';
+$string['privacy:metadata:filepurpose'] = 'Faili zilizobebeshwa kwa kuwasilisha zoezi hili';
+$string['siteuploadlimit'] = 'Kikomo cha kupakia';
+$string['submissionfilearea'] = 'Faili za uwasilishaji zilizopakiwa';

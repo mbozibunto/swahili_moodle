@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'alternative', language 'en', branch 'MOODLE_25_STABLE'
+ * Strings for component 'alternative', language 'sw', branch 'MOODLE_25_STABLE'
  *
  * @package   alternative
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,113 +28,112 @@ defined('MOODLE_INTERNAL') || die();
 $string['alternative'] = 'mbadala';
 $string['alternativename'] = 'Jina la Shughuli';
 $string['alternativeoptions'] = 'Chaguo kwa mbadala huu';
-$string['alternativeoptions_help'] = 'Each alternative shows the user several options.
-These options are described in this form.
-If the title is not set, the option will not be created (but will be deleted if it existed).
-You can add new option with the button after these field sets.';
+$string['alternativeoptions_help'] = 'Kila mbadala inaonyesha chaguo kadhaa za mtumiaji.
+Chaguzi hizi zimefafanuliwa katika fomu hii.
+Ikiwa Cheo hakijawekwa, chaguo halitaundwa (lakini litafutwa kama lilikuwepo).
+Unaweza kuongeza chaguo mpya kwa kutumia kitufe baada ya seti ya uga hizi.';
 $string['changeallowed'] = 'Mabadiliko Yanaruhusiwa';
-$string['changeallowed_help'] = 'If not checked, the user will not be able to change his choice.
-Teachers, and all roles that have the capability `alternatives:forceregistration`, will be able to change the choice of anyone.';
+$string['changeallowed_help'] = 'Ikiwa haijaangaliwa, mtumiaji hataweza kubadili chaguo lake.
+Walimu, na Majukumu yaliyo na uwezo `alternatives:forceregistration`, wanaweza badili chaguo la mtu yeyote.';
 $string['chooseteammembers'] = 'Tafadhali chagua mwanachama wa timu';
 $string['chooseuser'] = 'Tafadhali chagua mtumiaji wa kusajili';
 $string['csv'] = 'CSV Import';
-$string['csv2ndfield'] = 'The 2nd field (places) should be numeric, with 0 = no limit.';
-$string['csvbadfieldnb'] = 'Bad number of fields: {$a} instead of 4.';
-$string['csv_help'] = 'Each line is composed of Title ; Places ; Date ; Description';
-$string['csvunableopen'] = 'Unable to open CSV file.';
+$string['csv2ndfield'] = 'Uga wa 2 (maeneo) lazima iwe katika tarakimu, kwa 0 = hakuna mwisho.';
+$string['csvbadfieldnb'] = 'Namba mbaya ya nyuga: {$a} badala ya 4.';
+$string['csv_help'] = 'Kila msitari unajumuisha Cheo ; Mahali ; Tarehe ; Ufafanuzi';
+$string['csvunableopen'] = 'Haiwezi kufungua faili la CSV.';
 $string['datecomment'] = 'Tarehe';
-$string['datecomment_help'] = 'This field can contain any text, but it is meant for a date or a date interval.';
+$string['datecomment_help'] = 'Uga huu unaweza kuwa na maandishi yoyote, lakini maana yake ni kwa ajili ya tarehe au muda wa tarehe .';
 $string['displaycompact'] = 'Compact display';
-$string['displaycompact_help'] = 'If not checked, each option will be displayed on several lines, with an explicit description.
-	If checked, each option will be displayed on one line, with a folded description.';
-$string['fieldsetcsv'] = 'Import options from CSV file';
-$string['fieldsetmultiple'] = 'Settings for multiple registrations';
-$string['fieldsetteam'] = 'Settings for teams';
-$string['forceregister'] = 'Force registrations';
-$string['groupdependent'] = 'Group dependent';
-$string['groupdependent_help'] = 'If this box is checked, the text show to each user will depend on his group.';
-$string['individual'] = 'Individual';
-$string['instructionsforcereg'] = 'You can not register yourself but your role allows you to register students to any choice.';
+$string['displaycompact_help'] = 'Ikiwa haijachaguliwa, kila chaguo litaonyeshwa kwenye mistari kadhaa, na maelezo ya wazi. Ikiwa limechaguliwa, kila chaguo itaonyeshwa kwenye mstari mmoja, na maelezo yaliyopangwa.';
+$string['fieldsetcsv'] = 'Chaguo za kuingiza kutoka faili la CSV';
+$string['fieldsetmultiple'] = 'Mipangilia ya usajili anuwai';
+$string['fieldsetteam'] = 'Mipangilio ya timu';
+$string['forceregister'] = 'Lazimisha usajili';
+$string['groupdependent'] = 'Utegemezi wa kikundi';
+$string['groupdependent_help'] = 'Ikiwa kisanduku hiki kimechaguliwa, maandishi yanayoonyeshwa kwa kila mtumiaji yatategemea kikundi chake.';
+$string['individual'] = 'Mmoja mmoja';
+$string['instructionsforcereg'] = 'Huwezi kujisajili mwenyewe lakini jukumu lako linakuwezesha kusajili wanafunzi kwa uchaguzi wowote.';
 $string['instructionsgeneral'] = '';
-$string['instructionsmultiple'] = 'You must choose between {$a->multiplemin} and {$a->multiplemax} options.';
-$string['instructionsmultiplenomax'] = 'You must choose at least {$a->multiplemin} options.';
-$string['instructionsnochange'] = 'Once a choice is saved, changing it will not be allowed.';
-$string['instructionsteam'] = 'You can register as a team. A team must have between {$a->teammin} and {$a->teammax} members.
-As you registered other members of your team, you will be the team leader.';
-$string['messageprovider:reminder'] = 'mod/alternative student reminder';
-$string['modulename'] = 'Alternative';
-$string['modulename_help'] = 'The alternative module allows students to register one or several choices in a given list.';
-$string['modulenameplural'] = 'alternatives';
-$string['multiple'] = 'Multiple';
-$string['multipleenable'] = 'Enable these settings';
-$string['multipleenable_help'] = 'Each user has to register several options, between the minimum and maximum values.';
-$string['multiplemax'] = 'User max registrations';
-$string['multiplemin'] = 'User min registrations';
-$string['noselectedoption'] = 'You have to select an option';
-$string['noselectedusers'] = 'No users selected';
-$string['option'] = 'Option';
-$string['optionintro'] = 'Description';
-$string['optionname'] = 'Title';
-$string['options'] = 'Options';
-$string['places'] = 'Places';
-$string['placesavail'] = 'Available places';
-$string['pluginadministration'] = 'Alternative administration';
-$string['pluginname'] = 'alternative';
-$string['potentialteammembers'] = 'Potential team members';
-$string['private'] = 'Private';
-$string['public'] = 'Public';
-$string['publicreg'] = 'Public registrations';
-$string['publicreg_help'] = 'The registrations can be:<dl>
-<dt>public</dt> <dd>shown to everyone,</dd>
-<dt>public in the same group</dt> <dd>users see registrations of users that share at least a groupn</dd>
-<dt>private</dt> <dd>shown only to power-users (teachers, etc).</dd>
+$string['instructionsmultiple'] = 'Lazima uchagua baina ya chaguo {$a->multiplemin} na {$a->multiplemax}.';
+$string['instructionsmultiplenomax'] = 'Lazima uchague angalau chaguzi {$a->multiplemin}.';
+$string['instructionsnochange'] = 'Mara baada ya chaguo kuhifadhiwa, haitarushiwa tena kubadili.';
+$string['instructionsteam'] = 'Unaweza sajili timu. Timu lazima iwe na wanachama kati ya {$a->teammin} na {$a->teammax}.
+Unaposajili washiriki wengine wa timu yako, utatakiwa kuwa kiongozi wa timu.';
+$string['messageprovider:reminder'] = 'mod/alternative Kikumbusho cha mwanafunzi';
+$string['modulename'] = 'Badala';
+$string['modulename_help'] = 'Moduli mbadala inarushu wanafunzi kusajili chaguo moja au zaidi kutoka kwenye orodha iliyopo.';
+$string['modulenameplural'] = 'mbadala';
+$string['multiple'] = 'Nyingi';
+$string['multipleenable'] = 'Wezesha mipangilio hii';
+$string['multipleenable_help'] = 'Kila mtumiaji atasajili chaguo kadhaa, kiwango kilicho kati ya ukomo wa juu na chini.';
+$string['multiplemax'] = 'Ukomo wa juu wa usajili kwa mtumiaji';
+$string['multiplemin'] = 'Ukomo wa chini wa usajili kwa mtumiaji';
+$string['noselectedoption'] = 'Unatakiwa kuchagua chaguo';
+$string['noselectedusers'] = 'Hakuwa watumiaji waliochaguliwa';
+$string['option'] = 'Chaguo';
+$string['optionintro'] = 'Ufafanuzi';
+$string['optionname'] = 'Cheo';
+$string['options'] = 'Chaguo';
+$string['places'] = 'Maeneo';
+$string['placesavail'] = 'Sehemu zinazopatika';
+$string['pluginadministration'] = 'Utawala mdabala';
+$string['pluginname'] = 'badala';
+$string['potentialteammembers'] = 'Wanachama wenye uwezo adimu';
+$string['private'] = 'Binafsi';
+$string['public'] = 'Umma';
+$string['publicreg'] = 'Usajili wa umma';
+$string['publicreg_help'] = 'Usajili unaweza kuwa:<dl>
+<dt>umma</dt> <dd>inaonekana kwa kila mtumiaji,</dd>
+<dt>wa umma katika kikundi kimoja</dt> <dd>watumiaji wanaona usajili wa watumiaji ambao angalau wanashiriki katika kikundi</dd>
+<dt>Binafsi</dt> <dd>inaonekana kwa watumiaji wenye nguvu (walimu, etc).</dd>
 </dl>';
-$string['register'] = 'Register';
-$string['registrationforbidden'] = 'You cannot register here.';
-$string['registrations'] = 'Registrations';
-$string['registrationsaved'] = 'Your registration choice was saved.';
-$string['regteams'] = 'Registered teams';
-$string['remains'] = 'Remains';
-$string['reminderBefore'] = 'before [[AlterUntil]]';
-$string['reminderFull'] = 'You must make a choice in the activity “[[AlterName]]”';
-$string['reminderFullHtml'] = 'You must make a choice in the activity “<i>[[AlterName]]</i>”';
-$string['reminderSmall'] = 'You must make a choice in the activity “[[AlterName]]”';
-$string['reminderSubject'] = 'Reminder : you must choose among alternative options';
-$string['sendReminder'] = 'Send reminder';
-$string['separator'] = 'Separator';
-$string['students'] = 'Students';
-$string['synthesis'] = 'Synthesis';
-$string['synthfree'] = 'Free';
-$string['synthlimitplaces'] = 'Limited places options (individual)';
-$string['synthlimitteamplaces'] = 'Limited places options (team)';
-$string['synthplaces'] = 'Places (individual)';
-$string['synthpotential'] = 'Potential students';
-$string['synthregistered'] = 'Registered students';
-$string['synthreserved'] = 'Reserved (among limited)';
-$string['synthteamplaces'] = 'Places (team)';
-$string['synthunlimitplaces'] = 'Unlimited places options (individual)';
-$string['synthunlimitteamplaces'] = 'Unlimited places options (team)';
-$string['synthunregistered'] = 'Unregistered students';
-$string['team'] = 'Team';
-$string['teamenable'] = 'Enable team settings';
-$string['teamenable_help'] = 'Set the minimum and maximum sizes of teams.';
-$string['teamleader'] = 'Team leader';
-$string['teamleadernotamember'] = 'The team leader should not be a member of its team.';
-$string['teammax'] = 'Max team size';
-$string['teammin'] = 'Min team size';
-$string['teamplaces'] = 'Team places';
-$string['teamplacesavail'] = 'Available places for teams';
-$string['teams'] = 'Teams';
-$string['unique'] = 'Unique';
-$string['unregister'] = 'Unregister';
-$string['unregisterLeader'] = 'Beware: unregistering a leader will result in unregistering the whole team.';
-$string['uploadoverwrites'] = 'Beware: uploading a new file deletes all previous registrations and options.';
-$string['userinfo'] = 'Has registered to {$a} options.';
-$string['usersnotreg'] = 'Unregistered users';
-$string['usersreg'] = 'Registered users';
-$string['viewallregistrations'] = 'View registrations';
-$string['viewallusersnotreg'] = 'View unregistered users';
-$string['viewallusersreg'] = 'View registered users';
-$string['viewsynthesis'] = 'View synthesis';
-$string['viewteams'] = 'View teams';
-$string['wrongteamsize'] = 'The size of your team is not between the allowed bounds.';
+$string['register'] = 'Sajili';
+$string['registrationforbidden'] = 'Huwezi sajili hapa.';
+$string['registrations'] = 'Usajili';
+$string['registrationsaved'] = 'Chaguo la usajili wako limehifadhiwa.';
+$string['regteams'] = 'Timu zilizosajiliwa';
+$string['remains'] = 'Bakia';
+$string['reminderBefore'] = 'kabla [[AlterUntil]]';
+$string['reminderFull'] = 'Lazima ufanye chaguo kwenye shughuli “[[AlterName]]”';
+$string['reminderFullHtml'] = 'Lazima ufanye chaguo kwenye shughuli “<i>[[AlterName]]</i>”';
+$string['reminderSmall'] = 'Lazima ufanye chaguo kwenye shughuli “[[AlterName]]”';
+$string['reminderSubject'] = 'Ukumbusho : lazima kuchagua kati ya chaguo mbadala';
+$string['sendReminder'] = 'Tuma Ukumbusho';
+$string['separator'] = 'Kitenganishi';
+$string['students'] = 'Wanafunzi';
+$string['synthesis'] = 'Awali';
+$string['synthfree'] = 'Huria';
+$string['synthlimitplaces'] = 'Maeneo ya chaguzi yenye kukoma (mmoja mmoja)';
+$string['synthlimitteamplaces'] = 'Maeneo ya chaguzi yenye kukoma (timu)';
+$string['synthplaces'] = 'Mahali (moja moja)';
+$string['synthpotential'] = 'Wanafunzi wenye uwezekano';
+$string['synthregistered'] = 'Wanafunzi waliosajiliwa';
+$string['synthreserved'] = 'Imehifadhiwa (among limited)';
+$string['synthteamplaces'] = 'Maeneo (timu)';
+$string['synthunlimitplaces'] = 'Maeneo ya chaguzi yasiyo na ukomo (mmoja mmoja)';
+$string['synthunlimitteamplaces'] = 'Maeneo ya chaguzi yasiyo na ukomo (timu)';
+$string['synthunregistered'] = 'Wanafunzi wasiosajiliwa';
+$string['team'] = 'Timu';
+$string['teamenable'] = 'Wezesha mipangilio ya timu';
+$string['teamenable_help'] = 'Weka ukomo wa juu na chini kwa ukubwa wa timu.';
+$string['teamleader'] = 'Kiongozi wa Timu';
+$string['teamleadernotamember'] = ' Kiongozi wa timu hapaswi kuwa mwanachama wa timu yake.';
+$string['teammax'] = 'Ukomo wa juu wa ukubwa wa timu';
+$string['teammin'] = 'Ukomo wa chini wa ukubwa wa timu';
+$string['teamplaces'] = 'Maeneo ya timu';
+$string['teamplacesavail'] = 'Maeneo yanayopatikana kwa timu';
+$string['teams'] = 'Timu';
+$string['unique'] = 'Ya pekee';
+$string['unregister'] = 'Usisajili';
+$string['unregisterLeader'] = 'Tahadhari: kumuondolea usajili kiongozi wa timu kutasababisha pia timu nzima kuondolewa usajili.';
+$string['uploadoverwrites'] = 'Tahadhari: Kupakia faili jipya kutafuta usajili na chaguo zilizopita.';
+$string['userinfo'] = 'Amesajili chaguzi mpaka {$a}.';
+$string['usersnotreg'] = 'Watumiaji wasiosajiliwa';
+$string['usersreg'] = 'watumiaji waliosajiliwa';
+$string['viewallregistrations'] = 'Tazama usajili';
+$string['viewallusersnotreg'] = 'Tazama watumiaji wasiosajiliwa';
+$string['viewallusersreg'] = 'Tazama watumiaji waliosajiliwa';
+$string['viewsynthesis'] = 'Angalia usanisi';
+$string['viewteams'] = 'Tazama timu';
+$string['wrongteamsize'] = 'Ukubwa wa timu yako si kati ya mipaka iliyoruhusiwa.';

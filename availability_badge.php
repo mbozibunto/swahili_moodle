@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_badge', language 'en', branch 'MOODLE_31_STABLE'
+ * Strings for component 'availability_badge', language 'sw', branch 'MOODLE_31_STABLE'
  *
  * @package   availability_badge
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['description'] = 'Allow only students who has a specified badge.';
+$string['description'] = 'Ruhusu wanafunzi ambao wana beji maalumu tu.';
 $string['missing'] = '(Missing badge)';
-$string['pluginname'] = 'Restriction by badge';
-$string['requires_badge'] = 'You have badge \'<strong>{$a}</strong>\\';
-$string['requires_notbadge'] = 'You do not have badge \'<strong>{$a}</strong>\\';
-$string['title'] = 'Badge';
+$string['pluginname'] = 'Vikwaji kwa beji';
+$string['requires_badge'] = 'Una beji \'<strong>{$a}</strong>\\';
+$string['requires_notbadge'] = 'Hauna Beji \'<strong>{$a}</strong>\\';
+$string['title'] = 'Beji';
