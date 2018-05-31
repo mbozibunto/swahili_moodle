@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actenrolshhdr'] = 'Vichomeka vyo uandkishaji wa kozi vinavyopatikana';
+$string['actenrolshhdr'] = 'Plagini za uandikishaji wa kozi zinavyopatikana';
 $string['addinstance'] = 'Ongeza mbinu';
 $string['addinstanceanother'] = 'Ongeza mbinu na tenegeneza nyingine';
 $string['ajaxnext25'] = 'Ijayo 25...';
@@ -33,10 +33,10 @@ $string['ajaxoneuserfound'] = 'Kapatikan mtumiaji 1';
 $string['ajaxxusersfound'] = 'Wamepatikana watumiaji {$a}';
 $string['assignnotpermitted'] = 'Hauna kibali au huwezi kutoa majukumu kwenye kozi hii.';
 $string['bulkuseroperation'] = 'Uendeshaji wingi wa mtumijai';
-$string['configenrolplugins'] = 'Tafadhali chagua vichomeka vyote vinavyotakiwa na uvipangilie kwa utaratibu unaotakiwa.';
+$string['configenrolplugins'] = 'Tafadhali chagua plagini vyote vinavyotakiwa na uvipangilie kwa utaratibu unaotakiwa.';
 $string['custominstancename'] = 'Jina maalumu la instance';
 $string['defaultenrol'] = 'Ongeza instance kwenye course mpya';
-$string['defaultenrol_desc'] = 'Inawezekana kuongeza kichomeka hiki kwa kozi zote kwa njia ya msingi.';
+$string['defaultenrol_desc'] = 'Inawezekana kuongeza plagini hii kwa kozi zote kwa njia ya msingi.';
 $string['deleteinstanceconfirm'] = 'Una karibia kufuta mbinu hii ya usajili "{$a->name}". Watumiaji wote {$a->users} waliojiandikisha kwa kutumia njia hii wataondolewa usajili na data yoyote inayohusiana na kozi kama madaraja ya watumiaji, uanachama wa kikundi au usajili wa jukwaa utafutwa.
 
 Je! Una hakika unataka kuendelea?';
@@ -68,7 +68,7 @@ $string['enroltimecreated'] = 'Uandikishaji umeundwa';
 $string['enroltimeend'] = 'Uandikishaji umeisha';
 $string['enroltimeendinvalid'] = 'Tarehe ya kufunga uandikishaji lazima iwe baada ya tarehe ya kuanza uandikishaji';
 $string['enroltimestart'] = 'Kuanza kwa uandikishaji';
-$string['enrolusage'] = 'Mifano / uandikishaji';
+$string['enrolusage'] = 'Instensi / uandikishaji';
 $string['enrolusers'] = 'Sajili watumiaji';
 $string['enrolxusers'] = 'Andikisha watumiaji {$a}';
 $string['errajaxfailedenrol'] = 'Imeshindwa kusajili mtumiaji';
@@ -78,9 +78,9 @@ $string['errorenrolcohort'] = 'Hitilafu kwenye kuunda usajili unaofutana kwa kik
 $string['errorenrolcohortusers'] = 'Hitilafu kuandikisha wanachama wa kikundi katika kozi hii.';
 $string['errorthresholdlow'] = 'Kizingiti cha taarifa lazima kiwe angalau siku 1.';
 $string['errorwithbulkoperation'] = 'Kulikuwa na hitilafu wakati wa kuchakata mabadiliko yako ya usajili kwa wingi.';
-$string['eventenrolinstancecreated'] = 'Mifano ya uandikishaji imeundwa';
-$string['eventenrolinstancedeleted'] = 'Mifano ya uandikishaji imefutwa';
-$string['eventenrolinstanceupdated'] = 'Mifano ya uandikishaji imesasishwa';
+$string['eventenrolinstancecreated'] = 'Instensi ya uandikishaji imeundwa';
+$string['eventenrolinstancedeleted'] = 'Instensi ya uandikishaji imefutwa';
+$string['eventenrolinstanceupdated'] = 'Instensi ya uandikishaji imesasishwa';
  $string['eventuserenrolmentcreated'] = 'Mtumiaji ameandikishwa kwenye kozi';
 $string['eventuserenrolmentdeleted'] = 'Mtumiaji ameondoshewa usajili kutoka kwenye kozi hii';
 $string['eventuserenrolmentupdated'] = 'Usitishwaji wa usajili kwa mtumiaji umesasishwa';
@@ -102,10 +102,10 @@ $string['foundxcohorts'] = 'Vikundi {$a} vimepatikana';
 $string['instanceadded'] = 'Mbinu imeongezwa';
 $string['instanceeditselfwarning'] = 'Onyo:';
 $string['instanceeditselfwarningtext'] = 'Umejiunga kwenye kozi hii kupitia njia hii ya usajili, mabadiliko yanaweza kuathiri upatikanaji wa kozi hii.';
-$string['invalidenrolinstance'] = 'Mfano huu ya uandikishaji ni batili';
+$string['invalidenrolinstance'] = 'Instensi hii ya uandikishaji ni batili';
 $string['invalidrequest'] = 'Ombo Batili';
 $string['invalidrole'] = 'Jukumu Batili';
-$string['manageenrols'] = 'Simamia kichomeka cha usajili';
+$string['manageenrols'] = 'Simamia plagini hii ya usajili';
 $string['manageinstance'] = 'Simamia';
 $string['migratetomanual'] = 'Hamia kwenye usajili wa mwongozo';
 $string['nochange'] = 'Hakuna mabadiliko';
@@ -125,7 +125,7 @@ $string['periodnone'] = 'waliojiandikisha {$a}';
 $string['periodstart'] = 'kutoka {$a}';
 $string['periodstartend'] = 'kutoka {$a->start} mpaka {$a->end}';
 $string['privacy:metadata:user_enrolments'] = 'Uandikishaji';
-$string['privacy:metadata:user_enrolments:enrolid'] = 'Mfano wa kichomeka cha kujiandikisha.';
+$string['privacy:metadata:user_enrolments:enrolid'] = 'Instensi ya plagini ya kujiandikisha.';
 $string['privacy:metadata:user_enrolments:modifierid'] = 'Utambulisho wa mtumiaji aliyekuwa wa mwisho kurekebisha usajili wa mtumiaji.';
 $string['privacy:metadata:user_enrolments:status'] = 'Hali ya usajili wa mtumiaji katika kozi.';
 $string['privacy:metadata:user_enrolments:tableexplanation'] = 'Hapa ndpo usimamizi wa usajili huhifadhi watumiaji waliosajiliwa.';

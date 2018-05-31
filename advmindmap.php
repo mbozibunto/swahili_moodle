@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['advmindmap'] = 'Kiwango Juu cha Ramaniakili';
-$string['advmindmap:addinstance'] = 'Ongeza mfano wa Kiwango juu cha mindmap';
-$string['advmindmapfieldset'] = 'Mfano maalumu wa seti ya uga';
+$string['advmindmap:addinstance'] = 'Ongeza instensi ya Kiwango juu cha mindmap';
+$string['advmindmapfieldset'] = 'Instensi maalumu wa seti ya uga';
 $string['advmindmap:givecomment'] = 'Toa Maoni';
 $string['advmindmapintro'] = 'Utambulisho wa Kiwango juu cha Ramaniakili';
 $string['advmindmapname'] = 'Jina la Kiwango juu cha Ramaniakili';

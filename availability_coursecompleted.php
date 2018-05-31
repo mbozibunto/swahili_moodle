@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['description'] = 'Ruhusu wanafunzi ambao wamekamilisha (au bado) kozi hii tu.';
+$string['description'] = 'Ruhusu wanafunzi ambao wamekamilisha (au bado) kwa kozi hii tu.';
 $string['getdescription'] = 'Umemaliza kozi hii.';
 $string['getdescriptionnot'] = '<b>Haujakamilisha</b> kozi hii.';
 $string['missing'] = '(Amua kama ni lazima kozi ikamilike au isikamilike)';
 $string['pluginname'] = 'Vikwazo kwa ukamilifu wa course';
-$string['privacy:metadata'] = 'Kichomeka kinachoonesha ukamilifu wa kozi hakihifadhi taarifa binafsi.';
+$string['privacy:metadata'] = 'Plagini inyoonesha ukamilifu wa kozi hakihifadhi taarifa binafsi.';
 $string['requires_completed'] = 'Umekamilisha kozi hii';
 $string['requires_notcompleted'] = '<b>Haujakamilisha</b> kozi hii';
 $string['title'] = 'Kozi imekamilika';

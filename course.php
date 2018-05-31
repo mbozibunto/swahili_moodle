@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['privacy:completionpath'] = 'Kumalizika kwa kozi';
+$string['privacy:completionpath'] = 'Ukamilifu wa kozi';
 $string['privacy:metadata:completionsummary'] = 'Kozi ina maelezo ya mtumiaji kuhusu kukamilika kwake.';
 $string['privacy:perpage'] = 'Idadi ya kozi za kuonyesha kila ukurasa.';
