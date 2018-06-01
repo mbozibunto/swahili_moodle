@@ -25,3 +25,14 @@ kikundi --> kundi
 plugin --> plagini 
 kichomeka --> 
 Instensi --> 
+
+=======================
+NEW filesize
+
+1. forumanon.php
+2. question.php
+3. survey.php
+4. user.php
+5. message.php
+6. message_email.php
+7. local_news_forum.php
